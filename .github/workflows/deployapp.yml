@@ -19,7 +19,9 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.x
-
+   
+    - name: provide execute permission to script
+      run: chmod 777 deployapp.sh
 
     - name: Run deployment script
       run: ./deployapp.sh
