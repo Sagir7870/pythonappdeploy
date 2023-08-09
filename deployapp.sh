@@ -1,2 +1,2 @@
 echo "Deploying python hello world app"
-python app.py
+python python.py
